@@ -60,12 +60,12 @@
             }
             document.getElementById('date').innerHTML = `${month.padStart(2,'0')}月${day.padStart(2,'0')}日`
 
-            showSymbl = !showSymbl
+           // showSymbl = !showSymbl
         }
         clock()
-        //setInterval(()=>{
-          //  clock()
-       // },1000)
+        setInterval(()=>{
+           clock()
+        },1000)
     </script>
     
 </body>
